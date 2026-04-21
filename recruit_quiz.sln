@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36804.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "recruit_quiz", "recruit_quiz\recruit_quiz.vcxproj", "{777AA5F1-5F89-4922-8494-086BE3AB495D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{777AA5F1-5F89-4922-8494-086BE3AB495D}.Debug|x64.ActiveCfg = Debug|x64
+		{777AA5F1-5F89-4922-8494-086BE3AB495D}.Debug|x64.Build.0 = Debug|x64
+		{777AA5F1-5F89-4922-8494-086BE3AB495D}.Debug|x86.ActiveCfg = Debug|Win32
+		{777AA5F1-5F89-4922-8494-086BE3AB495D}.Debug|x86.Build.0 = Debug|Win32
+		{777AA5F1-5F89-4922-8494-086BE3AB495D}.Release|x64.ActiveCfg = Release|x64
+		{777AA5F1-5F89-4922-8494-086BE3AB495D}.Release|x64.Build.0 = Release|x64
+		{777AA5F1-5F89-4922-8494-086BE3AB495D}.Release|x86.ActiveCfg = Release|Win32
+		{777AA5F1-5F89-4922-8494-086BE3AB495D}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8D29F58-7875-4813-8111-9B901978BB06}
+	EndGlobalSection
+EndGlobal
