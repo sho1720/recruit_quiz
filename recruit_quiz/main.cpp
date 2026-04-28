@@ -42,8 +42,16 @@ int main() {
 	y = uniform_int_distribution<>(1, 5)(rand) * 2;
 	//push_backで追加 追加される物は構造体Questionの初期化リストになる
 	questions.push_back({
-		"面積" + to_string(x * y / 2) + "㎠、底辺" + to_string(y) + "㎝の三角形の高さを求めよ", 
+		"面積" + to_string(x * y / 2) + "cm^2、底辺" + to_string(y) + "㎝の三角形の高さを求めよ", 
 		x});
+
+	//円錐の体積
+	x = uniform_int_distribution<>(1, 10)(rand);
+	y = uniform_int_distribution<>(1, 5)(rand) * 3;
+	//push_backで追加 追加される物は構造体Questionの初期化リストになる
+	questions.push_back({
+		"底面の半径" + to_string(x) + "cm、高さ" + to_string(y) + "cmの円錐がある。\n" + "この円錐の体積をXπcm^3とする。Xの値を求めよ",
+		x * x * y /3});
 
 	cout << "[リクルート試験対策クイズ]\n";
 	
