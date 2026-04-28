@@ -81,6 +81,17 @@ int main() {
 		"さいころを1回振って、" + to_string(x) + "から" + to_string(x +y) + "が出る確率を求めよ",
 		to_string((y + 1) / z) + "/" + to_string(6 / z) });
 
+	//順列
+	x = uniform_int_distribution<>(3, 7)(rand);
+	y = uniform_int_distribution<>(1, x)(rand);
+	z = 1;
+	for (int i = 0; i < y; i++) {
+		z *= (x - i);
+	}
+	//push_backで追加 追加される物は構造体Questionの初期化リストになる
+	questions.push_back({
+		to_string(x) + "人のうち" + to_string(y) + "人を選んで並べる方法は何通りあるか",
+		to_string(z)});
 
 	cout << "[リクルート試験対策クイズ]\n";
 	
